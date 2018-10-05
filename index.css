@@ -1,0 +1,55 @@
+* {
+    -webkit-box-sizing: border-box;
+    -mox-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+
+body {
+    font-family: 'Nunito', sans-serif;
+    background-color: #65CFF9;
+    color: white;
+}
+
+form {
+    font: 1em;
+}
+
+.result {
+    display: block;
+}
+
+.submit-button {
+    text-decoration: none;
+    border: none;
+    border-radius: 10%;
+    background-color: #D3C4D1;
+    font-size: 0.9em;
+}
+
+.submit-button:hover {
+    background-color: #BAF9EE;
+}
+
+a {
+    color: white;
+}
+
+a:hover, a:focus {
+    color: #BAF9EE;
+}
+
+a:visited {
+    color: #A2E2FB;
+}
+
+footer {
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    background-color: #D3C4D1;
+    width: 100%;
+}
+
+footer > p {
+    text-align: center;
+}

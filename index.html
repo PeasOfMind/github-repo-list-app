@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Github User Repos App</title>
+    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Look for a user's repos on GitHub</h1>
+    </header>
+    <section class="request">
+        <form class='js-form'>
+            <label for="user-handle">User Handle</label>
+            <input type="text" class="js-entry" id="user-handle">
+            <input type="submit" value="Search" class="submit-button">
+        </form>
+    </section>
+    <h2 id="js-error-msg" class="error-msg" hidden></h2>
+    <section class="js-results results" hidden>
+    </section>
+    <footer>
+        <p>Created by PeasofMind</p>
+    </footer>
+    <script src="index.js"></script>
+</body>
+</html>
